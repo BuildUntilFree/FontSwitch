@@ -21,5 +21,4 @@ for filename in os.listdir(directory):
         # Save the changes to the .docx file
         doc.save(os.path.join(r'C:\PLACE_YOUR_FILE_HERE\FontSwitch\To', filename))
 
-
-print("All done!")
+print("FontSwitched!")
